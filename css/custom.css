@@ -1,0 +1,356 @@
+/* HEIGHT 100% */
+html, body {height: 100%; }
+.bloco {min-height: 100%; padding-top: 280px;}
+.container { width: 90%; }
+/* COLORS */
+.blue-logo {background-color: #2dc7d0;}
+
+/* LOGO */
+.logo_text {font-size: 0; margin: 0;}
+.logo_img {width: 120px; margin-top: 10px;}
+
+
+/* MENU parte de cima*/
+.navbar { background-color: transparent; transition: background 0.5s linear; height: 97px;}
+.navbar ul{float: right; margin-right: -12px; padding: -22px;  margin-top: 10px;  height: 5px; }
+/*.navbar ul:hover {background-color: transparent; }*/
+.navbar ul a{font-size: 1.4rem; font-weight: 600; display: unset; }
+.navbar ul a:hover {background-color: transparent; color: #2dc7d0;}
+/*.nav-color {background-color: rgba(0,0,0,0.8); transition: background 0.5s linear;}*/
+/* textos bo banner*/
+.banner h2 {font-size: 3.2rem; font-weight: 700; text-transform: uppercase; margin-top: -10px;}
+.banner p {font-size: 2rem; line-height: 3rem; font-weight: 400; padding: 50px;}
+/* alterando nav das paginas*/
+
+
+
+
+
+/* MENU  parte de baixo*/   /* mrgim top diminui o tamano do nav-color */
+.segundo { margin-top: 30px; background-color: transparent; max-height: 90px; height: auto;}
+nav ul li { margin-top: -25px; }
+/* redes e parte de cima */
+.nome-redes { color: #fff; float: left; margin-top: -50px;font-size: 1.2rem;}
+.icons-redes { float: left;margin-left: 5px; margin-top: -32px;font-size: 1rem; }
+.icons-redes a:hover { color: #2dc7d0; font-size:  1.4rem;  }
+.icons-redes a{padding: 8px; }
+.orca p{ font-size: 1.2rem;float: right; padding: 5px; margin-top: -38px;}
+.whats { font-size: 1.3rem; float: right; padding: 3px; margin-top: -21px; }:hover
+.whats:hover {  color: #2dc7d0; font-size:  1.4rem; }
+.navbar-numero { font-size: 1.2rem;float: right; padding: 5px; margin-top: -23px; }
+.navbar-numero:hover {  color: #2dc7d0; font-weight: 600;}
+
+
+
+
+
+/* HOME */
+.home {animation: mudarbg 20s infinite; background-image: url('../img/imagembaixada3.jpg'); background-repeat: no-repeat;
+background-size:cover;  }
+.btn-large { height: 40px; line-height: 40px; margin-bottom: 30px; margin: 0 20px 50 30px;}
+
+.nav ul a{background-color: transparent;}
+
+/* HOME - ANIMATION */
+@keyframes mudarbg {
+    40%  {background-image: url('../img/ipermebiliacao1.jpg');}
+    80%  {background-image: url('../img/porcelanato.jpg');}
+    100% {background-image: url('../img/bancadaparapia.jpg');}
+}
+
+ 
+/* TITULO E PARAGRAFO */
+.titulo {font-size: 2rem; font-weight: 800; text-transform: uppercase;  margin-top: -200px;}
+.titulo::after {content: ''; display: block; width: 100px; border-top: 3px solid #000000;
+margin:10px auto;}
+.servicos .card-title { font-size: 1.4rem; font-weight: 500;}
+.unidades .card-title { font-size: 1.4rem; font-weight: 500; }
+
+.paragrafo {font-size: 1.8rem; font-weight: 650; line-height: 2rem;}
+
+/* SERVIÇOS */
+.servicos, .contato {background-image: url('../img/77.jpg'); background-repeat: no-repeat;
+background-size: cover; } 
+
+.demais-servicos {margin: 0 0px 20px 50px; float: right; font-size: 14px;}
+.demais-servicos a { padding: 0 20px 0 20px;}
+
+.depoimentos .titulo { margin-top: 50px; }
+
+
+
+/* obras realiadas */
+.unidades {background-image: url('../img/textura2.png')}
+.unidades .titulo::after {border-color: #fff;}
+.demais-obras { margin: 0 10px 20px 50px; float: right;}
+
+
+
+
+
+
+
+
+
+
+/* SOBRE */
+.unidades .titulo::after {border-color: #fff;}
+.sobre {text-align: center;	height: auto;	margin-top: 200px;	background-image: url('../img/textura1.png')}
+.sobre .sobre-flex {	display: flex;}
+.sobre h2 {	padding-top: 70px;}
+.sobre .texto-sobre {text-align: justify; font-size: 18px;	font-weight: 400;
+	width: 60%;	margin: 0 45px 0 70px;}
+.sobre .imagem-sobre img{	width: 40%;	margin-top: 80px;	border-radius: 50%;	width: 400px;	height: 400px;	margin: 0 5px 50px 70px;1}
+
+
+
+
+/* CONTATO */
+
+.contato h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.contato .mapa {min-height: 560px;}
+.contato .mapa iframe {width: 100%; min-height: 560px; border:none;}
+.contato .informacoes {background-image: url('../img/textura2.png'); min-height: 560px; padding: 30px; } 
+.contato .formulario {min-height: 560px; padding: 20px;}
+/* botao enviar do contato */
+.contato .btn { width: 100%; }
+.contato .row .pacote-contato  { margin-top: -110px; }
+
+/* DEPOIMENTOS */
+.depoimentos .titulo::after {border-color: #fff;}
+.depoimentos {background-image: url('../img/textura2.png')}
+.depoimentos img {width: 100px; }
+.depoimentos h4 {font-size: 1.2rem; font-weight: 900;}
+
+/* RODAPE */
+.rodape {width: 100%; center center; background-image: url('../img/imagemfutter.jpg'); background-repeat: no-repeat; background-size: cover;
+padding: -10px;}
+.rodape img {width: 100px; padding-top: 5px;}
+
+
+
+
+
+
+
+
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 94px; 
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {  
+  height: 34px;
+  line-height: 94px;
+}
+
+.side-nav {background: url('../img/textura2.png');}
+.side-nav li>a {color: #fff; font-weight: 100;}
+.row {margin-bottom: 0;}
+.tabs {background-color: #222;}
+.tabs .tab a {color: #fff;}
+.tabs .tab a:hover, .tabs .tab a.active {color:#2dc7d0; }
+.tabs .indicator {background-color: #2dc7d0; }
+
+
+
+
+
+
+/* MEDIA */
+  /* ////////////celular///////////////*/
+@media (min-width: 200px) and (max-width: 600px) {
+.logo_img {width: 100px; margin-top: 5px; }
+.navbar-numero { display: none; }
+.orca p { display: none; }
+.whats { margin-top: 3px; padding-right: 2px;}
+/* diminuir barra menu sombra */
+.navbar-fixed nav {    height: 60px;    position: fixed; width: 100%;}
+/* butao mobile */
+ nav a.button-collapse i {  margin-top: -20px;  margin-right:  -16px; }
+
+/*.total { padding-bottom: 20px; }
+.card-image-horizontal {display: none;} */
+
+/* texto banner*/
+.banner h2 {font-size: 2.2rem; font-weight: 600; text-transform: uppercase; padding-top: -10px;}
+.banner p {font-size: 1.6rem; line-height: 1.8rem; font-weight: 500; padding: 30px;}
+.btn-large {width: 100px; height: 30px; line-height: 30px; margin: 50px 0px 30px 10px;}
+/* menu banner */
+/*.home .btn-large {width: 90px; height: 30px; line-height: 30px;}*/
+/* botoes redondos  */
+
+/* botoes sair dentro dos serviços  */
+.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
+   width: 70px; height: 30px; line-height: 30px; padding: 2px;}
+.textocenter a{  padding: 0;}
+/* subindo o texto banner  */
+
+.sobre .imagem-sobre img{	padding: 0;	margin: 0;}
+.sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
+.sobre .texto-sobre p{ width: 100%; padding: 10px;}
+.sobre .sobre-flex {	display: block;}
+
+/* contato celular*/
+.contato .row .pacote-contato  { padding-bottom: 80px; }
+/* todape celular    subindo copy*/
+.rodape .row p { padding-bottom: 30px;}
+
+
+
+
+/* texto do titulo servicos p */
+.servicos .paragrafo { padding: 0 30px 0 30px; }
+/*.servicos .pag-serv { margin-top: -60px; }
+.unidades .pag-serv { margin-top: -60px; }*/
+
+/* butao das paginas */
+.servicos .btn-large {width: 150px; height: 30px; line-height: 30px; margin: 0 0px 30px 0px;  }
+.unidades .btn-large {width: 150px; height: 30px; line-height: 30px; margin: 0 0px 30px 0px;  }
+/*menu fixo   pagina seriços    */
+/*  menu fixo   abaixando logo e botao mobile*/
+.menupaginasbaixo .logo_img { margin-top: 17px; }
+/* botao anterior*/
+.anterior .btn-large { float: left; width: 120px; height: 30px; line-height: 30px; margin: 0 20px 50px 0px;  }
+
+}
+
+
+
+
+
+
+  /* ////////////tablet///////////////*/
+@media (min-width: 601px) and (max-width: 992px) {
+  
+  .btn-large { height: 30px; line-height: 30px; margin: 0px 0px 30px 10px;}
+  /* sobre tablet*/
+  .sobre .sobre-flex { display: block;}
+  .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
+  .sobre .texto-sobre p{ width: 100%; padding: 10px;}
+  .sobre .imagem-sobre img { margin: 30px 0 20px 0;  }
+ /* contato tablet*/
+  .contato .row .pacote-contato  { padding-bottom: 20px; }
+ /* todape tablet    subindo copy*/
+ .rodape .row p { padding-bottom: 30px;}
+ .anterior .btn-large { width: 120px;  margin-left: 0px;}
+ .obras .btn-large { width: 120px;  margin-left: 140px;}
+
+
+}
+
+
+
+
+
+
+
+0@media  (min-width: 993px) and (max-width: 1800px){
+.logo_img {width: 140px; margin-top: 10px;}
+.nav-color {background-color: rgba(0,0,0,0.7); transition: background 0.5s linear; height: 90px;}
+/* diminuir barra menu sombra */
+.navbar-fixed nav {  height: 105px;    position: fixed;}
+
+
+
+
+
+.sobre .sobre-flex .texto-sobre  {font-size: 7rem; background-color: #000; color: #fff;}
+
+
+
+
+.servicos .btn-large {width: 202px; height: 40px; line-height: 40px; margin: 0 10px 5px 0; 	float: right; }
+.unidades .btn-large {width: 185px; height: 40px; line-height: 40px; margin: 0 -10px 5px 0px; float: right; }
+/* mudar altura titulo e texto das paginas secundarias */
+
+.servicos .titulo {  margin-top: 10px; }
+.servicos .paragrafo { padding: 0 5px 0 5px; }
+.unidades .titulo { margin-top: 10px; }
+
+/*.servicos .pag-serv { margin-top: -30px; }
+.unidades .pag-serv { margin-top: -30px; }*/
+
+
+
+.container {width: 90%;}
+.card-stacked h3 { margin-top: 0; }
+.card-stacked p { line-height: 1.5rem; padding: 0; }
+
+/*pagina seriços   menu fixo   abaixando logo e botao mobile*/
+/* botao anterior*/
+.anterior .btn-large { float: left; width: 202px; height: 40px; line-height: 40px; margin: 0 20px 5px 0px;  }
+}
+
+
+/* custom paginas paginas a parte*/   /*menu  */
+/* menu paginas cima*/
+.menupaginascima {z-index: 99; background-color: #000;  position: fixed; width: 100%; height: 30px; }
+/* menu paginas baixo*/
+.fixsar {z-index: 99; background-color: #000; margin-top: 30px; position: fixed; width: 100%; height: 75px;}
+/*baixando o titulo  
+.pag-serv { padding-top: 110px; }
+.mmmmmmnav-pag {position: fixed; background-color: rgba(0,0,0,0.8); width: 100%;  height: 54px; }*/
+.servicos .anterior {padding: 0 0 0 20px;  float: left;}
+.unidades .anterior {padding: 0 0 0 20px; float: left;}
+
+
+
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 90px; 
+}
+.navbar-fixed { background-color: #000;
+  position: absolute;
+  height: 70px;
+}
+.navbar-fixed1 {
+  position: fixed;margin-top: 30px; width: 100%;
+  height: 90px;
+}
+
+
+/*pagina obras e servicos  */
+.aback-uni {background-image: url('../img/textura2.png'); background-repeat: no-repeat;
+background-size: cover; background-attachment: fixed;}
+.servicos .pag-serv { padding-top: 100px; }
+.unidades .pag-serv { padding-top: 100px; }
+.unidades .pag-obras::after {border-color: #fff;}
+
+
+
+
+
+
+.servicos .demais-obras {  float: right; margin-right: 0px;}
+
+
+
+
+
+
+/* mudar altura titulo e texto das paginas secundarias */
+
+
+.unidades .card-image-horizontal img{ width: 200px; height: 760px; } 
+.servicos .card-image img {width: 0px auto; height: 250px;}
+
+.unidades .card-image img {width: 280px; height: 300px;}
+.card.horizontal .card-image img { border-radius:  60px 0 0 0; }
+.card {border-radius:  60px 0 0 0;}
+
+.card.horizontal .card-image img{ width: 290px; background-color: #f6f6f6;}
+
+
+
+
+
+
+
+
+
+
