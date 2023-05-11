@@ -22,10 +22,6 @@ html, body {height: 100%; }
 .banner p {font-size: 2rem; line-height: 3rem; font-weight: 400; padding: 50px;}
 /* alterando nav das paginas*/
 
-
-
-
-
 /* MENU  parte de baixo*/   /* mrgim top diminui o tamano do nav-color */
 .segundo { margin-top: 30px; background-color: transparent; max-height: 90px; height: auto;}
 nav ul li { margin-top: -25px; }
@@ -39,10 +35,6 @@ nav ul li { margin-top: -25px; }
 .whats:hover {  color: #2dc7d0; font-size:  1.4rem; }
 .navbar-numero { font-size: 1.2rem;float: right; padding: 5px; margin-top: -23px; }
 .navbar-numero:hover {  color: #2dc7d0; font-weight: 600;}
-
-
-
-
 
 /* HOME */
 .home {animation: mudarbg 20s infinite; background-image: url('../img/imagembaixada3.jpg'); background-repeat: no-repeat;
@@ -77,21 +69,10 @@ background-size: cover; }
 
 .depoimentos .titulo { margin-top: 50px; }
 
-
-
 /* obras realiadas */
 .unidades {background-image: url('../img/textura2.png')}
 .unidades .titulo::after {border-color: #fff;}
 .demais-obras { margin: 0 10px 20px 50px; float: right;}
-
-
-
-
-
-
-
-
-
 
 /* SOBRE */
 .unidades .titulo::after {border-color: #fff;}
@@ -101,9 +82,6 @@ background-size: cover; }
 .sobre .texto-sobre {text-align: justify; font-size: 18px;	font-weight: 400;
 	width: 60%;	margin: 0 45px 0 70px;}
 .sobre .imagem-sobre img{	width: 40%;	margin-top: 80px;	border-radius: 50%;	width: 400px;	height: 400px;	margin: 0 5px 50px 70px;1}
-
-
-
 
 /* CONTATO */
 
@@ -127,14 +105,6 @@ background-size: cover; }
 padding: -10px;}
 .rodape img {width: 100px; padding-top: 5px;}
 
-
-
-
-
-
-
-
-
 /* CUSTOM */
 nav.nav-extended .nav-wrapper {
   min-height: 94px; 
@@ -154,11 +124,6 @@ nav i.material-icons, nav a.button-collapse i {
 .tabs .tab a {color: #fff;}
 .tabs .tab a:hover, .tabs .tab a.active {color:#2dc7d0; }
 .tabs .indicator {background-color: #2dc7d0; }
-
-
-
-
-
 
 /* MEDIA */
   /* ////////////celular///////////////*/
@@ -189,7 +154,14 @@ nav i.material-icons, nav a.button-collapse i {
 .textocenter a{  padding: 0;}
 /* subindo o texto banner  */
 
-.sobre .imagem-sobre img{	padding: 0;	margin: 0;}
+.sobre .titulo { margin-top: -200px; padding-top: 140px;}
+.titulo { margin-top: -140px; font-size: 1.8rem;}
+.paragrafo { font-weight: 550; line-height: 1.8rem; }
+.card.horizontal { display: block; }
+.row .col .card .card-image img{  width: 100%; border-radius: 0; }
+.card.horizontal .card-image {max-width:100%; }
+
+.sobre .imagem-sobre img{	padding: 10px;	margin: 0;}
 .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
 .sobre .texto-sobre p{ width: 100%; padding: 10px;}
 .sobre .sobre-flex {	display: block;}
@@ -198,9 +170,6 @@ nav i.material-icons, nav a.button-collapse i {
 .contato .row .pacote-contato  { padding-bottom: 80px; }
 /* todape celular    subindo copy*/
 .rodape .row p { padding-bottom: 30px;}
-
-
-
 
 /* texto do titulo servicos p */
 .servicos .paragrafo { padding: 0 30px 0 30px; }
@@ -215,15 +184,10 @@ nav i.material-icons, nav a.button-collapse i {
 .menupaginasbaixo .logo_img { margin-top: 17px; }
 /* botao anterior*/
 .anterior .btn-large { float: left; width: 120px; height: 30px; line-height: 30px; margin: 0 20px 50px 0px;  }
-
+.rodape .row p { margin-bottom: -10px; }
 }
 
-
-
-
-
-
-  /* ////////////tablet///////////////*/
+/* ////////////tablet///////////////*/
 @media (min-width: 601px) and (max-width: 992px) {
   
   .btn-large { height: 30px; line-height: 30px; margin: 0px 0px 30px 10px;}
@@ -238,15 +202,7 @@ nav i.material-icons, nav a.button-collapse i {
  .rodape .row p { padding-bottom: 30px;}
  .anterior .btn-large { width: 120px;  margin-left: 0px;}
  .obras .btn-large { width: 120px;  margin-left: 140px;}
-
-
 }
-
-
-
-
-
-
 
 0@media  (min-width: 993px) and (max-width: 1800px){
 .logo_img {width: 140px; margin-top: 10px;}
@@ -254,14 +210,7 @@ nav i.material-icons, nav a.button-collapse i {
 /* diminuir barra menu sombra */
 .navbar-fixed nav {  height: 105px;    position: fixed;}
 
-
-
-
-
 .sobre .sobre-flex .texto-sobre  {font-size: 7rem; background-color: #000; color: #fff;}
-
-
-
 
 .servicos .btn-large {width: 202px; height: 40px; line-height: 40px; margin: 0 10px 5px 0; 	float: right; }
 .unidades .btn-large {width: 185px; height: 40px; line-height: 40px; margin: 0 -10px 5px 0px; float: right; }
@@ -297,9 +246,6 @@ nav i.material-icons, nav a.button-collapse i {
 .servicos .anterior {padding: 0 0 0 20px;  float: left;}
 .unidades .anterior {padding: 0 0 0 20px; float: left;}
 
-
-
-
 /* CUSTOM */
 nav.nav-extended .nav-wrapper {
   min-height: 90px; 
@@ -313,7 +259,6 @@ nav.nav-extended .nav-wrapper {
   height: 90px;
 }
 
-
 /*pagina obras e servicos  */
 .aback-uni {background-image: url('../img/textura2.png'); background-repeat: no-repeat;
 background-size: cover; background-attachment: fixed;}
@@ -322,15 +267,7 @@ background-size: cover; background-attachment: fixed;}
 .unidades .pag-obras::after {border-color: #fff;}
 
 
-
-
-
-
 .servicos .demais-obras {  float: right; margin-right: 0px;}
-
-
-
-
 
 
 /* mudar altura titulo e texto das paginas secundarias */
