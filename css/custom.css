@@ -154,6 +154,7 @@ nav i.material-icons, nav a.button-collapse i {
 .textocenter a{  padding: 0;}
 /* subindo o texto banner  */
 
+ /* sobre tablet*/
 .sobre .titulo { margin-top: -200px; padding-top: 140px;}
 .titulo { margin-top: -140px; font-size: 1.8rem;}
 .paragrafo { font-weight: 550; line-height: 1.8rem; }
@@ -191,6 +192,8 @@ nav i.material-icons, nav a.button-collapse i {
 @media (min-width: 601px) and (max-width: 992px) {
   
   .btn-large { height: 30px; line-height: 30px; margin: 0px 0px 30px 10px;}
+ /* baixando titulo nos mobiles*/
+  .titulo { margin-top: -130px; font-size: 1.8rem;}
   /* sobre tablet*/
   .sobre .sobre-flex { display: block;}
   .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
