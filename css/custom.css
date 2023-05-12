@@ -52,13 +52,14 @@ background-size:cover;  }
 
  
 /* TITULO E PARAGRAFO */
-.titulo {font-size: 2rem; font-weight: 800; text-transform: uppercase;  margin-top: -200px;}
+.titulo {font-size: 2rem; font-weight: 800; text-transform: uppercase;  margin-top: -150px;}
 .titulo::after {content: ''; display: block; width: 100px; border-top: 3px solid #000000;
 margin:10px auto;}
 .servicos .card-title { font-size: 1.4rem; font-weight: 500;}
 .unidades .card-title { font-size: 1.4rem; font-weight: 500; }
-
 .paragrafo {font-size: 1.8rem; font-weight: 650; line-height: 2rem;}
+
+.sobre .titulo { margin-top: -200px; }
 
 /* SERVIÇOS */
 .servicos, .contato {background-image: url('../img/77.jpg'); background-repeat: no-repeat;
@@ -78,7 +79,7 @@ background-size: cover; }
 .unidades .titulo::after {border-color: #fff;}
 .sobre {text-align: center;	height: auto;	margin-top: 200px;	background-image: url('../img/textura1.png')}
 .sobre .sobre-flex {	display: flex;}
-.sobre h2 {	padding-top: 70px;}
+.sobre h2 {	padding-top: 110px;}
 .sobre .texto-sobre {text-align: justify; font-size: 18px;	font-weight: 400;
 	width: 60%;	margin: 0 45px 0 70px;}
 .sobre .imagem-sobre img{	width: 40%;	margin-top: 80px;	border-radius: 50%;	width: 400px;	height: 400px;	margin: 0 5px 50px 70px;1}
@@ -155,8 +156,8 @@ nav i.material-icons, nav a.button-collapse i {
 /* subindo o texto banner  */
 
  /* sobre tablet*/
-.sobre .titulo { margin-top: -200px; padding-top: 140px;}
-.titulo { margin-top: -140px; font-size: 1.8rem;}
+.sobre .titulo { margin-top: -200px; padding-top: 110px;}
+.titulo { margin-top: -180px; font-size: 1.8rem;}
 .paragrafo { font-weight: 550; line-height: 1.8rem; }
 .card.horizontal { display: block; }
 .row .col .card .card-image img{  width: 100%; border-radius: 0; }
@@ -166,14 +167,14 @@ nav i.material-icons, nav a.button-collapse i {
 .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
 .sobre .texto-sobre p{ width: 100%; padding: 10px;}
 .sobre .sobre-flex {	display: block;}
-
+.pag-serv { margin-top: -170px; }
 /* contato celular*/
 .contato .row .pacote-contato  { padding-bottom: 80px; }
 /* todape celular    subindo copy*/
 .rodape .row p { padding-bottom: 30px;}
 
 /* texto do titulo servicos p */
-.servicos .paragrafo { padding: 0 30px 0 30px; }
+.servicos .paragrafo { padding: 0 5px 0 5px; }
 /*.servicos .pag-serv { margin-top: -60px; }
 .unidades .pag-serv { margin-top: -60px; }*/
 
@@ -193,11 +194,11 @@ nav i.material-icons, nav a.button-collapse i {
   
   .btn-large { height: 30px; line-height: 30px; margin: 0px 0px 30px 10px;}
  /* baixando titulo nos mobiles*/
-  .titulo { margin-top: -130px; font-size: 1.8rem;}
+  .titulo { margin-top: -160px; font-size: 1.8rem;}
   /* sobre tablet*/
   .sobre .sobre-flex { display: block;}
   .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
-  .sobre .texto-sobre p{ width: 100%; padding: 10px;}
+  .sobre .texto-sobre p{ width: 100%; padding: 010px;}
   .sobre .imagem-sobre img { margin: 30px 0 20px 0;  }
  /* contato tablet*/
   .contato .row .pacote-contato  { padding-bottom: 20px; }
@@ -205,6 +206,8 @@ nav i.material-icons, nav a.button-collapse i {
  .rodape .row p { padding-bottom: 30px;}
  .anterior .btn-large { width: 120px;  margin-left: 0px;}
  .obras .btn-large { width: 120px;  margin-left: 140px;}
+ .pag-serv { margin-top: -170px; }
+
 }
 
 0@media  (min-width: 993px) and (max-width: 1800px){
@@ -223,10 +226,6 @@ nav i.material-icons, nav a.button-collapse i {
 .servicos .paragrafo { padding: 0 5px 0 5px; }
 .unidades .titulo { margin-top: 10px; }
 
-/*.servicos .pag-serv { margin-top: -30px; }
-.unidades .pag-serv { margin-top: -30px; }*/
-
-
 
 .container {width: 90%;}
 .card-stacked h3 { margin-top: 0; }
@@ -243,9 +242,8 @@ nav i.material-icons, nav a.button-collapse i {
 .menupaginascima {z-index: 99; background-color: #000;  position: fixed; width: 100%; height: 30px; }
 /* menu paginas baixo*/
 .fixsar {z-index: 99; background-color: #000; margin-top: 30px; position: fixed; width: 100%; height: 75px;}
-/*baixando o titulo  
-.pag-serv { padding-top: 110px; }
-.mmmmmmnav-pag {position: fixed; background-color: rgba(0,0,0,0.8); width: 100%;  height: 54px; }*/
+/*baixando o titulo  */
+
 .servicos .anterior {padding: 0 0 0 20px;  float: left;}
 .unidades .anterior {padding: 0 0 0 20px; float: left;}
 
@@ -265,8 +263,8 @@ nav.nav-extended .nav-wrapper {
 /*pagina obras e servicos  */
 .aback-uni {background-image: url('../img/textura2.png'); background-repeat: no-repeat;
 background-size: cover; background-attachment: fixed;}
-.servicos .pag-serv { padding-top: 100px; }
-.unidades .pag-serv { padding-top: 100px; }
+.servicos .pag-serv { padding-top: 70px; }
+.unidades .pag-serv { padding-top: 70px; }
 .unidades .pag-obras::after {border-color: #fff;}
 
 
