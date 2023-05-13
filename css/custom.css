@@ -57,13 +57,15 @@ background-size:cover;  }
 margin:10px auto;}
 .servicos .card-title { font-size: 1.4rem; font-weight: 500;}
 .unidades .card-title { font-size: 1.4rem; font-weight: 500; }
-.paragrafo {font-size: 1.8rem; font-weight: 650; line-height: 2rem;}
+.paragrafo {font-size: 1.8rem; font-weight: 650; line-height: 2rem; padding: 0 20px 0 20px;}
 
 .sobre .titulo { margin-top: -200px; }
 
 /* SERVIÇOS */
 .servicos, .contato {background-image: url('../img/77.jpg'); background-repeat: no-repeat;
 background-size: cover; } 
+
+.servico { padding: 0 40px 0 40px; }
 
 .demais-servicos {margin: 0 0px 20px 50px; float: right; font-size: 14px;}
 .demais-servicos a { padding: 0 20px 0 20px;}
@@ -158,25 +160,24 @@ nav i.material-icons, nav a.button-collapse i {
  /* sobre tablet*/
 .sobre .titulo { margin-top: -200px; padding-top: 110px;}
 .titulo { margin-top: -180px; font-size: 1.8rem;}
-.paragrafo { font-weight: 550; line-height: 1.8rem; }
+.paragrafo { font-weight: 550; line-height: 1.8rem; padding: 0 10px 0 10px; }
+
 .card.horizontal { display: block; }
 .row .col .card .card-image img{  width: 100%; border-radius: 0; }
 .card.horizontal .card-image {max-width:100%; }
 
-.sobre .imagem-sobre img{	padding: 10px;	margin: 0;}
+.sobre .imagem-sobre img{	padding: 10px;	margin: 0; width: 370px; height: 370px;}
 .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
 .sobre .texto-sobre p{ width: 100%; padding: 10px;}
 .sobre .sobre-flex {	display: block;}
 .pag-serv { margin-top: -170px; }
+
 /* contato celular*/
 .contato .row .pacote-contato  { padding-bottom: 80px; }
 /* todape celular    subindo copy*/
-.rodape .row p { padding-bottom: 30px;}
+.rodape .row p { padding-bottom: 20px;}
 
-/* texto do titulo servicos p */
-.servicos .paragrafo { padding: 0 5px 0 5px; }
-/*.servicos .pag-serv { margin-top: -60px; }
-.unidades .pag-serv { margin-top: -60px; }*/
+
 
 /* butao das paginas */
 .servicos .btn-large {width: 150px; height: 30px; line-height: 30px; margin: 0 0px 30px 0px;  }
@@ -195,6 +196,8 @@ nav i.material-icons, nav a.button-collapse i {
   .btn-large { height: 30px; line-height: 30px; margin: 0px 0px 30px 10px;}
  /* baixando titulo nos mobiles*/
   .titulo { margin-top: -160px; font-size: 1.8rem;}
+  .paragrafo { padding: 0 10px 0 10px; }
+
   /* sobre tablet*/
   .sobre .sobre-flex { display: block;}
   .sobre .texto-sobre { width: 100%; text-align: center; padding: 30px; margin: 0;}
@@ -203,10 +206,12 @@ nav i.material-icons, nav a.button-collapse i {
  /* contato tablet*/
   .contato .row .pacote-contato  { padding-bottom: 20px; }
  /* todape tablet    subindo copy*/
- .rodape .row p { padding-bottom: 30px;}
+ .rodape .row p { padding-bottom: 20px;}
  .anterior .btn-large { width: 120px;  margin-left: 0px;}
  .obras .btn-large { width: 120px;  margin-left: 140px;}
  .pag-serv { margin-top: -170px; }
+
+ 
 
 }
 
@@ -223,7 +228,6 @@ nav i.material-icons, nav a.button-collapse i {
 /* mudar altura titulo e texto das paginas secundarias */
 
 .servicos .titulo {  margin-top: 10px; }
-.servicos .paragrafo { padding: 0 5px 0 5px; }
 .unidades .titulo { margin-top: 10px; }
 
 
